@@ -1,0 +1,661 @@
+
+================================================================================
+LOGGING STARTED
+File: logs/full_training_log_20260118_054237.log
+Time: 2026-01-18 05:42:37
+================================================================================
+Epoch 1/20
+--------------------------------------------------
+Train Accuracy: 0.8360 - Train F1-score: 0.7954 - Train Loss: 0.4162
+Valid Accuracy: 0.8685 - Valid F1-score: 0.8345 - Valid Loss: 0.3482
+Validation loss decreased (inf --> 0.348249). Saving model ...
+Epoch 2/20
+--------------------------------------------------
+Train Accuracy: 0.8933 - Train F1-score: 0.8652 - Train Loss: 0.3060
+Valid Accuracy: 0.8949 - Valid F1-score: 0.8499 - Valid Loss: 0.4667
+EarlyStopping counter: 1 out of 5
+Epoch 3/20
+--------------------------------------------------
+Train Accuracy: 0.9219 - Train F1-score: 0.9009 - Train Loss: 0.2525
+Valid Accuracy: 0.8880 - Valid F1-score: 0.8542 - Valid Loss: 0.4178
+EarlyStopping counter: 2 out of 5
+Epoch 4/20
+--------------------------------------------------
+Train Accuracy: 0.9401 - Train F1-score: 0.9234 - Train Loss: 0.2236
+Valid Accuracy: 0.9018 - Valid F1-score: 0.8699 - Valid Loss: 0.4212
+EarlyStopping counter: 3 out of 5
+Epoch 5/20
+--------------------------------------------------
+Train Accuracy: 0.9565 - Train F1-score: 0.9444 - Train Loss: 0.1707
+Valid Accuracy: 0.8861 - Valid F1-score: 0.8548 - Valid Loss: 0.4972
+EarlyStopping counter: 4 out of 5
+Epoch 6/20
+--------------------------------------------------
+Train Accuracy: 0.9646 - Train F1-score: 0.9546 - Train Loss: 0.1484
+Valid Accuracy: 0.8999 - Valid F1-score: 0.8643 - Valid Loss: 0.6802
+EarlyStopping counter: 5 out of 5
+Early stopping.
+Accuracy: 0.8938
+Precision: 0.8713
+Recall: 0.8503
+F1-score: 0.8599
+Confusion matrix:
+ [[2745  166]
+ [ 255  797]]
+              precision    recall  f1-score   support
+
+           0     0.9150    0.9430    0.9288      2911
+           1     0.8276    0.7576    0.7911      1052
+
+    accuracy                         0.8938      3963
+   macro avg     0.8713    0.8503    0.8599      3963
+weighted avg     0.8918    0.8938    0.8922      3963
+
+Epoch 1/20
+--------------------------------------------------
+Train Accuracy: 0.8028 - Train F1-score: 0.5206 - Train Loss: 0.6948
+Valid Accuracy: 0.8894 - Valid F1-score: 0.7536 - Valid Loss: 0.5982
+Validation loss decreased (inf --> 0.598200). Saving model ...
+Epoch 2/20
+--------------------------------------------------
+Train Accuracy: 0.9092 - Train F1-score: 0.8448 - Train Loss: 0.3969
+Valid Accuracy: 0.9115 - Valid F1-score: 0.7847 - Valid Loss: 0.4911
+Validation loss decreased (0.598200 --> 0.491070). Saving model ...
+Epoch 3/20
+--------------------------------------------------
+Train Accuracy: 0.9346 - Train F1-score: 0.8890 - Train Loss: 0.3157
+Valid Accuracy: 0.8894 - Valid F1-score: 0.7172 - Valid Loss: 0.8168
+EarlyStopping counter: 1 out of 5
+Epoch 4/20
+--------------------------------------------------
+Train Accuracy: 0.9547 - Train F1-score: 0.9284 - Train Loss: 0.2154
+Valid Accuracy: 0.8673 - Valid F1-score: 0.7631 - Valid Loss: 0.9352
+EarlyStopping counter: 2 out of 5
+Epoch 5/20
+--------------------------------------------------
+Train Accuracy: 0.9703 - Train F1-score: 0.9529 - Train Loss: 0.1752
+Valid Accuracy: 0.8919 - Valid F1-score: 0.7713 - Valid Loss: 0.7933
+EarlyStopping counter: 3 out of 5
+Epoch 6/20
+--------------------------------------------------
+Train Accuracy: 0.9809 - Train F1-score: 0.9673 - Train Loss: 0.1121
+Valid Accuracy: 0.8968 - Valid F1-score: 0.7913 - Valid Loss: 0.7780
+EarlyStopping counter: 4 out of 5
+Epoch 7/20
+--------------------------------------------------
+Train Accuracy: 0.9884 - Train F1-score: 0.9794 - Train Loss: 0.0629
+Valid Accuracy: 0.8894 - Valid F1-score: 0.6817 - Valid Loss: 1.4813
+EarlyStopping counter: 5 out of 5
+Early stopping.
+Accuracy: 0.9030
+Precision: 0.8819
+Recall: 0.7867
+F1-score: 0.8184
+Confusion matrix:
+ [[ 28  12  14]
+ [  1 282  26]
+ [  3  46 640]]
+              precision    recall  f1-score   support
+
+           1     0.8750    0.5185    0.6512        54
+           2     0.8294    0.9126    0.8690       309
+           3     0.9412    0.9289    0.9350       689
+
+    accuracy                         0.9030      1052
+   macro avg     0.8819    0.7867    0.8184      1052
+weighted avg     0.9050    0.9030    0.9010      1052
+
+Running Pipeline Testing...
+--- Pipeline Combined Results ---
+Accuracy: 0.8824
+Precision: 0.7491 
+Recall: 0.6854
+F1-score: 0.7132
+Confusion matrix:
+ [[2745   12   93   61]
+ [  15   27    2   10]
+ [ 159    1  138   11]
+ [  81    1   20  587]]
+              precision    recall  f1-score   support
+
+           0     0.9150    0.9430    0.9288      2911
+           1     0.6585    0.5000    0.5684        54
+           2     0.5455    0.4466    0.4911       309
+           3     0.8774    0.8520    0.8645       689
+
+    accuracy                         0.8824      3963
+   macro avg     0.7491    0.6854    0.7132      3963
+weighted avg     0.8762    0.8824    0.8786      3963
+
+
+================================================================================
+PHÂN TÍCH LỖI DỰ ĐOÁN - TASK 1 (SPAM DETECTION)
+================================================================================
+Đang phân tích lỗi dự đoán cho Task 1...
+
+================================================================================
+TỔNG KẾT LỖI DỰ ĐOÁN - TASK 1
+================================================================================
+Tổng số mẫu bị dự đoán sai: 421
+Tỷ lệ lỗi: 10.62%
+
+Phân bố lỗi theo nhãn thực tế:
+True_Label
+Spam       255
+No-Spam    166
+Name: count, dtype: int64
+
+Phân bố lỗi theo nhãn dự đoán:
+Predicted_Label
+No-Spam    255
+Spam       166
+Name: count, dtype: int64
+
+================================================================================
+CHI TIẾT CÁC MẪU BỊ DỰ ĐOÁN SAI (Hiển thị 20/421 mẫu)
+================================================================================
+
+[1] Index: 17
+Comment: thất_vọng 😥😥😥
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[2] Index: 25
+Comment: hàng đẹp . giao ok , ủng_hộ hàng đẹp . giao ok , ủng_hộ hàng đẹp . giao ok , ủng_hộ
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[3] Index: 34
+Comment: giao hàng nhanh . hình_ảnh vs video chất xu hihi
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[4] Index: 38
+Comment: mua bnh túi đựng k bao h ấy , túi shop rẻ chất chất sờ
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[5] Index: 44
+Comment: chụp ảnh sản_phẩm tạm hình khác . mua shop 3 cam rồi , ủng_hộ shop tiếp
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[6] Index: 46
+Comment: shopeemall gian_dối lừa_đảo à .. đặt ensure giao pediasure nhắn shop 3 trời ko 1 hỗ_trợ phản_hồi đơn .. gọi đt cty cty bảo chờ liên_hệ hỗ_trợ hỗ_trợ lại .. thế đợi jo chẳng đâu .. lừa_đảo
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[7] Index: 48
+Comment: hàng sử_dụng ạ . kích wifi tư_vấn hướng nhiệt_tình shop . hài dịch_vụ chăm_sóc hàng shop ạ .
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[8] Index: 52
+Comment: goood giá chăng , sử_dụng very good shop chất uh nha mn ...........
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[9] Index: 53
+Comment: hàng ok tiếp_tục vai máy e khô e é é é é máy e mã_vạch é máy
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[10] Index: 60
+Comment: giao tiki now . hàng ok , lắp ntn
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[11] Index: 67
+Comment: hàng đóng_gói sản_phẩm cẩn_thận , móp méo , chất sản_phẩm khá , mã , hợp tiền ra , mau pin shop ? shop 5
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[12] Index: 73
+Comment: giao sai sp .................
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[13] Index: 80
+Comment: khui đẻ check giao nhann , tốt , đóng_gói thận lắm
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[14] Index: 92
+Comment: săn đc sale 199k tiki trading mua 1 tặng 1 giá hời luôn . giao hàng nhanh . chất hàng innisfree ko bàn nữa .
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[15] Index: 105
+Comment: 🦭🦭🦭🦭🦭🦭🦭🦭🦭🦭🦭🦭 oke lun mua nhìu lắm rrrr 🦭🦭🦭🦭🦭🦭🦭🦭🦭🦭🦭
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[16] Index: 106
+Comment: tiki giao hàng cực nhanh . hàng chất_lượng . cảm hài_lòng . sử_dụng nào .
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[17] Index: 107
+Comment: panasonic
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[18] Index: 114
+Comment: 10h mua ko gửi mã về . chiều ghi ưu_đãi sử_dụng . mua hn tình_trạng ko xử_lý trừ tiền
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[19] Index: 137
+Comment: sp
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[20] Index: 141
+Comment: máy , nhân_viên giao hàng nhiệt_tình bưng_bê , kiểm_tra máy giúp mình , kèm tư_vấn sử_dụng , lắp thái_độ hợp_tác , dụng_cụ lắp mượn
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+
+... và 401 mẫu khác
+
+================================================================================
+PHÂN TÍCH LỖI DỰ ĐOÁN - TASK 1 (SPAM DETECTION)
+================================================================================
+Đang phân tích lỗi dự đoán cho Task 1...
+
+================================================================================
+TỔNG KẾT LỖI DỰ ĐOÁN - TASK 1
+================================================================================
+Tổng số mẫu bị dự đoán sai: 421
+Tỷ lệ lỗi: 10.62%
+
+Phân bố lỗi theo nhãn thực tế:
+True_Label
+Spam       255
+No-Spam    166
+Name: count, dtype: int64
+
+Phân bố lỗi theo nhãn dự đoán:
+Predicted_Label
+No-Spam    255
+Spam       166
+Name: count, dtype: int64
+
+================================================================================
+CHI TIẾT CÁC MẪU BỊ DỰ ĐOÁN SAI (Hiển thị 20/421 mẫu)
+================================================================================
+
+[1] Index: 17
+Comment: thất_vọng 😥😥😥
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[2] Index: 25
+Comment: hàng đẹp . giao ok , ủng_hộ hàng đẹp . giao ok , ủng_hộ hàng đẹp . giao ok , ủng_hộ
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[3] Index: 34
+Comment: giao hàng nhanh . hình_ảnh vs video chất xu hihi
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[4] Index: 38
+Comment: mua bnh túi đựng k bao h ấy , túi shop rẻ chất chất sờ
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[5] Index: 44
+Comment: chụp ảnh sản_phẩm tạm hình khác . mua shop 3 cam rồi , ủng_hộ shop tiếp
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[6] Index: 46
+Comment: shopeemall gian_dối lừa_đảo à .. đặt ensure giao pediasure nhắn shop 3 trời ko 1 hỗ_trợ phản_hồi đơn .. gọi đt cty cty bảo chờ liên_hệ hỗ_trợ hỗ_trợ lại .. thế đợi jo chẳng đâu .. lừa_đảo
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[7] Index: 48
+Comment: hàng sử_dụng ạ . kích wifi tư_vấn hướng nhiệt_tình shop . hài dịch_vụ chăm_sóc hàng shop ạ .
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[8] Index: 52
+Comment: goood giá chăng , sử_dụng very good shop chất uh nha mn ...........
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[9] Index: 53
+Comment: hàng ok tiếp_tục vai máy e khô e é é é é máy e mã_vạch é máy
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[10] Index: 60
+Comment: giao tiki now . hàng ok , lắp ntn
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[11] Index: 67
+Comment: hàng đóng_gói sản_phẩm cẩn_thận , móp méo , chất sản_phẩm khá , mã , hợp tiền ra , mau pin shop ? shop 5
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[12] Index: 73
+Comment: giao sai sp .................
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[13] Index: 80
+Comment: khui đẻ check giao nhann , tốt , đóng_gói thận lắm
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[14] Index: 92
+Comment: săn đc sale 199k tiki trading mua 1 tặng 1 giá hời luôn . giao hàng nhanh . chất hàng innisfree ko bàn nữa .
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[15] Index: 105
+Comment: 🦭🦭🦭🦭🦭🦭🦭🦭🦭🦭🦭🦭 oke lun mua nhìu lắm rrrr 🦭🦭🦭🦭🦭🦭🦭🦭🦭🦭🦭
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[16] Index: 106
+Comment: tiki giao hàng cực nhanh . hàng chất_lượng . cảm hài_lòng . sử_dụng nào .
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[17] Index: 107
+Comment: panasonic
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[18] Index: 114
+Comment: 10h mua ko gửi mã về . chiều ghi ưu_đãi sử_dụng . mua hn tình_trạng ko xử_lý trừ tiền
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[19] Index: 137
+Comment: sp
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[20] Index: 141
+Comment: máy , nhân_viên giao hàng nhiệt_tình bưng_bê , kiểm_tra máy giúp mình , kèm tư_vấn sử_dụng , lắp thái_độ hợp_tác , dụng_cụ lắp mượn
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+
+... và 401 mẫu khác
+
+================================================================================
+✓ Đã lưu 421 mẫu bị dự đoán sai vào file:
+  task1_misclassified_samples.csv
+================================================================================
+
+
+
+================================================================================
+PHÂN TÍCH LỖI DỰ ĐOÁN - TASK 2 (SPAM TYPE CLASSIFICATION)
+================================================================================
+Đang phân tích lỗi dự đoán cho Task 2...
+
+================================================================================
+PHÂN TÍCH LỖI DỰ ĐOÁN - TASK 1 (SPAM DETECTION)
+================================================================================
+Đang phân tích lỗi dự đoán cho Task 1...
+
+================================================================================
+TỔNG KẾT - TASK 1
+================================================================================
+Số mẫu lỗi: 421
+
+Phân bố lỗi:
+True_Label
+Spam       255
+No-Spam    166
+Name: count, dtype: int64
+
+================================================================================
+CHI TIẾT CÁC MẪU BỊ DỰ ĐOÁN SAI (Hiển thị 20/421 mẫu)
+================================================================================
+
+[1] Index: 17
+Comment: thất_vọng 😥😥😥
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[2] Index: 25
+Comment: hàng đẹp . giao ok , ủng_hộ hàng đẹp . giao ok , ủng_hộ hàng đẹp . giao ok , ủng_hộ
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[3] Index: 34
+Comment: giao hàng nhanh . hình_ảnh vs video chất xu hihi
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[4] Index: 38
+Comment: mua bnh túi đựng k bao h ấy , túi shop rẻ chất chất sờ
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[5] Index: 44
+Comment: chụp ảnh sản_phẩm tạm hình khác . mua shop 3 cam rồi , ủng_hộ shop tiếp
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[6] Index: 46
+Comment: shopeemall gian_dối lừa_đảo à .. đặt ensure giao pediasure nhắn shop 3 trời ko 1 hỗ_trợ phản_hồi đơn .. gọi đt cty cty bảo chờ liên_hệ hỗ_trợ hỗ_trợ lại .. thế đợi jo chẳng đâu .. lừa_đảo
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[7] Index: 48
+Comment: hàng sử_dụng ạ . kích wifi tư_vấn hướng nhiệt_tình shop . hài dịch_vụ chăm_sóc hàng shop ạ .
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[8] Index: 52
+Comment: goood giá chăng , sử_dụng very good shop chất uh nha mn ...........
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[9] Index: 53
+Comment: hàng ok tiếp_tục vai máy e khô e é é é é máy e mã_vạch é máy
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[10] Index: 60
+Comment: giao tiki now . hàng ok , lắp ntn
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[11] Index: 67
+Comment: hàng đóng_gói sản_phẩm cẩn_thận , móp méo , chất sản_phẩm khá , mã , hợp tiền ra , mau pin shop ? shop 5
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[12] Index: 73
+Comment: giao sai sp .................
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[13] Index: 80
+Comment: khui đẻ check giao nhann , tốt , đóng_gói thận lắm
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[14] Index: 92
+Comment: săn đc sale 199k tiki trading mua 1 tặng 1 giá hời luôn . giao hàng nhanh . chất hàng innisfree ko bàn nữa .
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[15] Index: 105
+Comment: 🦭🦭🦭🦭🦭🦭🦭🦭🦭🦭🦭🦭 oke lun mua nhìu lắm rrrr 🦭🦭🦭🦭🦭🦭🦭🦭🦭🦭🦭
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[16] Index: 106
+Comment: tiki giao hàng cực nhanh . hàng chất_lượng . cảm hài_lòng . sử_dụng nào .
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[17] Index: 107
+Comment: panasonic
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[18] Index: 114
+Comment: 10h mua ko gửi mã về . chiều ghi ưu_đãi sử_dụng . mua hn tình_trạng ko xử_lý trừ tiền
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+[19] Index: 137
+Comment: sp
+Nhãn thực tế: No-Spam (0)
+Nhãn dự đoán: Spam (1)
+--------------------------------------------------------------------------------
+[20] Index: 141
+Comment: máy , nhân_viên giao hàng nhiệt_tình bưng_bê , kiểm_tra máy giúp mình , kèm tư_vấn sử_dụng , lắp thái_độ hợp_tác , dụng_cụ lắp mượn
+Nhãn thực tế: Spam (1)
+Nhãn dự đoán: No-Spam (0)
+--------------------------------------------------------------------------------
+
+... và 401 mẫu khác
+
+================================================================================
+✓ Đã lưu 421 mẫu bị dự đoán sai vào file:
+  task1_misclassified_samples.csv
+================================================================================
+
+
+
+================================================================================
+PHÂN TÍCH LỖI DỰ ĐOÁN - TASK 2 (SPAM TYPE CLASSIFICATION)
+================================================================================
+Đang phân tích lỗi dự đoán cho Task 2...
+
+================================================================================
+TỔNG KẾT - TASK 2
+================================================================================
+Số mẫu lỗi: 102
+
+Phân bố lỗi:
+True_Label
+Spam-3    49
+Spam-2    27
+Spam-1    26
+Name: count, dtype: int64
+
+================================================================================
+CHI TIẾT CÁC MẪU BỊ DỰ ĐOÁN SAI (Hiển thị 20/102 mẫu)
+================================================================================
+
+[1] Index: 4
+Comment: dsax hàng . test thử hôm ok . âm điện_thoại hơi nhỏ . khóc sợ ko
+Nhãn thực tế: Spam-3 (3)
+Nhãn dự đoán: Spam-2 (2)
+--------------------------------------------------------------------------------
+[2] Index: 20
+Comment: thơm rẻ
+Nhãn thực tế: Spam-3 (3)
+Nhãn dự đoán: Spam-2 (2)
+--------------------------------------------------------------------------------
+[3] Index: 29
+Comment: giao hàng nhanh , gói hàng cẩn_thận . cảm_ơn shop tiếp_tục ủng_hộ shop nạ
+Nhãn thực tế: Spam-3 (3)
+Nhãn dự đoán: Spam-2 (2)
+--------------------------------------------------------------------------------
+[4] Index: 46
+Comment: shopeemall gian_dối lừa_đảo à .. đặt ensure giao pediasure nhắn shop 3 trời ko 1 hỗ_trợ phản_hồi đơn .. gọi đt cty cty bảo chờ liên_hệ hỗ_trợ hỗ_trợ lại .. thế đợi jo chẳng đâu .. lừa_đảo
+Nhãn thực tế: Spam-3 (3)
+Nhãn dự đoán: Spam-2 (2)
+--------------------------------------------------------------------------------
+[5] Index: 63
+Comment: sôi tốt . đầu cắm 2 chấu dùng .
+Nhãn thực tế: Spam-3 (3)
+Nhãn dự đoán: Spam-1 (1)
+--------------------------------------------------------------------------------
+[6] Index: 64
+Comment: phấn mịn thơm lắm . date 2/2024. hàng giao nguyên_vẹn
+Nhãn thực tế: Spam-1 (1)
+Nhãn dự đoán: Spam-3 (3)
+--------------------------------------------------------------------------------
+[7] Index: 75
+Comment: hàng đẹp nhu hình giao hàng chất tiếp_tục ủng_hộ shop
+Nhãn thực tế: Spam-2 (2)
+Nhãn dự đoán: Spam-3 (3)
+--------------------------------------------------------------------------------
+[8] Index: 76
+Comment: mùi hương thơm chịu , 2 trv ko kích_ứng
+Nhãn thực tế: Spam-2 (2)
+Nhãn dự đoán: Spam-1 (1)
+--------------------------------------------------------------------------------
+[9] Index: 88
+Comment: chuẩn ... chất sản_phẩm y hình
+Nhãn thực tế: Spam-3 (3)
+Nhãn dự đoán: Spam-2 (2)
+--------------------------------------------------------------------------------
+[10] Index: 106
+Comment: tiki giao hàng cực nhanh . hàng chất_lượng . cảm hài_lòng . sử_dụng nào .
+Nhãn thực tế: Spam-2 (2)
+Nhãn dự đoán: Spam-3 (3)
+--------------------------------------------------------------------------------
+[11] Index: 110
+Comment: đẹp luôn , xinh , hình_mẫu , giá tiền , cực_kì !
+Nhãn thực tế: Spam-3 (3)
+Nhãn dự đoán: Spam-2 (2)
+--------------------------------------------------------------------------------
+[12] Index: 113
+Comment: sản_phẩm mô_tả . vẻ hơi lỏng_lẻo kê máy k xê_dịch rung lắc hết . shop chuẩn hàng nhanh . sản_phẩm phù_hợp nhu_cầu sử_dụng .
+Nhãn thực tế: Spam-3 (3)
+Nhãn dự đoán: Spam-2 (2)
+--------------------------------------------------------------------------------
+[13] Index: 124
+Comment: giao hàng siêu nhanh , chuẩn nhanh , đóng_gói cẩn_thận , sản_phẩm chất phù_hợp giá tiền . mua bé khám_phá 🤣
+Nhãn thực tế: Spam-1 (1)
+Nhãn dự đoán: Spam-2 (2)
+--------------------------------------------------------------------------------
+[14] Index: 131
+Comment: 3 tháng , hàng sử_dụng tốt , chạy mượt , giá mua hợp_lý khuyến_mại
+Nhãn thực tế: Spam-1 (1)
+Nhãn dự đoán: Spam-2 (2)
+--------------------------------------------------------------------------------
+[15] Index: 144
+Comment: tiết_kiệm điện_năng ngăn chức_năng_thể tắt
+Nhãn thực tế: Spam-2 (2)
+Nhãn dự đoán: Spam-3 (3)
+--------------------------------------------------------------------------------
+[16] Index: 156
+Comment: hàng sản_phẩm full box , thông_tin , giao hàng nhanh , đóng_gói cẩn_thận , tư_vấn nhiệt_tình
+Nhãn thực tế: Spam-1 (1)
+Nhãn dự đoán: Spam-3 (3)
+--------------------------------------------------------------------------------
+[17] Index: 157
+Comment: loa đài ok , tiếng_vang rõ , thẻ sạc , ủng_hộ shop
+Nhãn thực tế: Spam-3 (3)
+Nhãn dự đoán: Spam-2 (2)
+--------------------------------------------------------------------------------
+[18] Index: 181
+Comment: túi xinh lắm 1 chút_xíu thừa form đẹp hàng hình nhiên shop ko nhét bì đệm hơi phồng túi đáy gấp 1 tí_xíu dây kéo mượt hài < 3
+Nhãn thực tế: Spam-2 (2)
+Nhãn dự đoán: Spam-3 (3)
+--------------------------------------------------------------------------------
+[19] Index: 183
+Comment: bình_thường , hơi tệ gãy
+Nhãn thực tế: Spam-3 (3)
+Nhãn dự đoán: Spam-2 (2)
+--------------------------------------------------------------------------------
+[20] Index: 194
+Comment: tốt , mua khuyến_mãi giá siêu rẻ
+Nhãn thực tế: Spam-1 (1)
+Nhãn dự đoán: Spam-2 (2)
+--------------------------------------------------------------------------------
+
+... và 82 mẫu khác
+
+================================================================================
+✓ Đã lưu 102 mẫu bị dự đoán sai vào file:
+  task2_misclassified_samples.csv
+================================================================================
+
